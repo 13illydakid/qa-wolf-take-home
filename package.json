@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js http://127.0.0.1:3000"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "fast-csv": "^5.0.1",
+    "fs": "^0.0.1-security",
     "playwright": "^1.39.0"
   },
   "devDependencies": {
