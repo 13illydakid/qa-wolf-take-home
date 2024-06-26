@@ -4,7 +4,5 @@ node_modules/
 /playwright/.cache/
 
 .env
-app.js
-main.js
-hackernews_top10.csv
 
+hackernews_top10.csv
